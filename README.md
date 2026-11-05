@@ -2,13 +2,7 @@
 
 **Does video defogging make visual SLAM work in fog?** We add physically based synthetic fog to real and simulated video, remove it with a temporal defogging network, and measure whether SLAM trajectories improve. Trajectory accuracy (ATE), not PSNR, is the main measure of success.
 
-The pipeline:
 
-```text
-clean video ──► fog synthesis (private) ──► foggy video (MOR 50–300 m) ──► defogging/ (DriveDefog) ──► defogged video
-                                                                                                   │
-                                     ground-truth poses ──► slam/droid/ (DROID-SLAM, ATE) ◄────────┘
-```
 
 ## Repository layout
 
