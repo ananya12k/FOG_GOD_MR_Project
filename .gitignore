@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pth
+*.pt
+*.ckpt
+*.log
+*.tmp
+.ipynb_checkpoints/
+droid_env/
+checkpoints/
+results/**/traj_est_tum.txt
