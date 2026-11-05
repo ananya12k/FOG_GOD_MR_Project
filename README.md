@@ -25,7 +25,7 @@
 | `eval_orb_proxy.py` | Fast feature-level check: ORB matches surviving RANSAC between frame pairs (clean, foggy, defogged). Not ORB-SLAM. |
 | `foggy_baseline.py` | PSNR/SSIM of the undefogged foggy input on the same frames, as the "no defogging" baseline. |
 
-**Not included:** the fog synthesis code and the foggy datasets are part of a separate private research codebase and are not released here. The DriveDefog network (FogPromptNetV2), its trainer, dataset loader and losses come from a separate private research codebase. The launchers here show the exact training and fine-tuning configuration. `eval_edfog_test.py`, `eval_orb_proxy.py` and `ft_lr.py` import from that codebase and run only inside it.
+
 
 ### `slam/droid/`
 
